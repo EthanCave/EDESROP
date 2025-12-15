@@ -104,7 +104,7 @@ def benchmark_folder(image_dir, model, enhance=True):
 # ---------------------------------
 if __name__ == "__main__":
     IMAGE_DIR = "kaggle/input/170/01/"
-    MODEL_PATH = "fianl_model.keras"
+    MODEL_PATH = "final_model.keras"
 
     model = tf.keras.models.load_model(MODEL_PATH)
     benchmark_folder(IMAGE_DIR, model, enhance=True)
